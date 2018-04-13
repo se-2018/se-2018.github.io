@@ -48,10 +48,10 @@ weight: 2
  5. 将代码打包，上传至[Matrix](https://vmatrix.org.cn)
  6. 学习[Junit](http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=21299308)，利用Ant、Junit测试通过HelloWorld
  7. 学习并[配置SonarQube](./resources/sonarqube-tutorial-v1.pdf)，利用SonarQube测试自己昨天写的Java小程序
-    注意：Sonar 和 Sonar-runner **无需**下载，已放在云平台的`/opt/resources`目录
+    注意：Sonar 和 Sonar-runner 可以不必下载，已放在云平台的`/opt/resources`目录
 
  8. 完成[GridWorld](./resources/gridworld.zip)的[环境配置](./Stage1--EnvironmentalConfiguration)，学习`gridworld.jar`的引用，编译运行`BugRunner`
- 9. 登录[Matrix](https://vmatrix.org.cn)完成[Part1](./Stage1--Part1)的问题和练习（英文作答）
+ 9. 登录[Matrix](https://vmatrix.org.cn)完成[Part1](./Stage1--Part1)的问题和练习（建议用英文书写，**可用中文**）
 
 ### 检查
  1. 检查ANT、Junit。主要是通过检查HelloWorld是否通过编译，部署和测试。（检查点：1.是否使用ANT；2.是否使用Junit）

@@ -29,3 +29,41 @@ weight: 5
 ### 连接不上云桌面
 请先询问其他人是否能连上，若其他人可以而自己不可以，请先排查网络问题。还是无法解决请私戳反馈。
 
+### 云桌面配置
+```shell
+administrator@vinzor:~$ lsb_release -a
+No LSB modules are available.
+Distributor ID:    Ubuntu
+Description:    Ubuntu 12.04.5 LTS
+Release:    12.04
+Codename:    precise
+
+administrator@vinzor:~$ java -version
+java version "1.8.0_91"
+Java(TM) SE Runtime Environment (build 1.8.0_91-b14)
+Java HotSpot(TM) 64-Bit Server VM (build 25.91-b14, mixed mode)
+
+administrator@vinzor:~$ ant -version
+Apache Ant(TM) version 1.8.2 compiled on December 3 2011
+
+administrator@vinzor:~$ sonar-runner --version
+SonarQube Runner 2.4
+Java 1.8.0_91 Oracle Corporation (64-bit)
+Linux 3.13.0-32-generic amd64
+
+administrator@vinzor:~$ junit -help
+junit 3.8.1 -- this version is modified by Takashi Okamoto <tora@debian.org> for Debian.
+```
+
+### 云桌面资源
+```shell
+administrator@vinzor:~$ ls -1 /opt/resources/
+apache-ant-1.9.7-bin.tar.gz
+eclipse-java-neon-R-linux-gtk-x86_64.tar.gz
+grid-world.zip
+junit-4.12.jar
+junit-4.9.jar
+sonar-3.7.4.zip
+sonar-runner-dist-2.4.zip
+sonar-scanner-2.6.1.zip
+```
