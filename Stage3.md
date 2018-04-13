@@ -16,7 +16,9 @@ weight: 4
 ### 摘要
 本阶段在老师和TA指导下开始进行Gridworld项目。
 
-本阶段可以使用Eclipse等IDE协助开发。
+本阶段可以使用Eclipse等IDE协助开发，附[eclipse使用教程](./resources/eclipse-tutorial-v1.pdf)。
+
+时间：**2018.04.22~2018.05.06**
 
 
 ### 制品
@@ -41,15 +43,13 @@ weight: 4
 
 
 ### 任务
-可使用eclipse开发，附[eclipse使用教程](./resources/eclipse-tutorial-v1.pdf)。
-
  1. 开发[图像处理](./Stage3--ImageProcessing)部分内容，登录[Matrix](https://vmatrix.org.cn)并提交
  2. 开发[迷宫](./Stage3--MazeBug)部分内容，登录[Matrix](https://vmatrix.org.cn)并提交
  3. 开发[拼图](./Stage3--NPuzzle)部分内容，登录[Matrix](https://vmatrix.org.cn)并提交
-
+ 4. 完成检查，具体见下节"检查"
 
 ### 检查
-
+检查时间、地点及流程见[概述](./Home)页中提要第六点"作业检查"。
  1. TA对[图像处理](./Stage3--ImageProcessing)部分的内容进行审核。(需现场检查程序运行)
  2. TA对[迷宫](./Stage3--MazeBug)部分的内容进行审核。(需现场检查程序运行)
  3. TA对[拼图](./Stage3--NPuzzle)部分的内容进行审核。(需现场检查程序运行)

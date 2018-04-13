@@ -16,6 +16,9 @@ weight: 2
 ### 摘要
 本阶段主要是为实训项目做基本的技术准备，学会使用**Vi**, **JAVA**, **Ant** 和 **Junit**, 以及熟悉GridWorld的使用，并完成指定的任务。
 
+时间：**2018.04.08~2018.04.15**
+
+
 ### 制品
 
  1.  个人任务：**Vi,Java,Ant和Junit的自学报告**
@@ -52,8 +55,10 @@ weight: 2
 
  8. 完成[GridWorld](./resources/gridworld.zip)的[环境配置](./Stage1--EnvironmentalConfiguration)，学习`gridworld.jar`的引用，编译运行`BugRunner`
  9. 登录[Matrix](https://vmatrix.org.cn)完成[Part1](./Stage1--Part1)的问题和练习（建议用英文书写，**可用中文**）
+ 10. 完成检查，具体见下节"检查"
 
 ### 检查
+检查时间、地点及流程见[概述](./Home)页中提要第六点"作业检查"。
  1. 检查ANT、Junit。主要是通过检查HelloWorld是否通过编译，部署和测试。（检查点：1.是否使用ANT；2.是否使用Junit）
  2. 检测SonarQube的使用情况。（SonarQube是否正常运行，Java小程序的分析结果）
  3. 检查BugRunner。（检查点：BugRunner是否能正确编译、运行）

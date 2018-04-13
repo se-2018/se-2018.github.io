@@ -18,6 +18,8 @@ weight: 3
 
 可使用eclipse开发，附参考教程：[eclipse使用](./resources/eclipse-tutorial-v1.pdf)。
 
+时间：**2018.04.15~2018.04.22**
+
 
 ### 制品
 **[Part2](./Stage2--Part2) 、 [Part3](./Stage2--Part3) 、 [Part4](./Stage2--Part4) 和 [Part5](./Stage2--Part5) 的所有问题与练习、程序代码**
@@ -54,10 +56,11 @@ weight: 3
      - [Part4](./Stage2--Part4) 编写的代码
      - [Part5](./Stage2--Part5) 编写的代码
      - [Part4](./Stage2--Part4) 、 [Part5](./Stage2--Part5) 的问题和练习的答案
+ 7. 完成检查，具体见下节"检查"
 
 
 ### 检查
-
+检查时间、地点及流程见[概述](./Home)页中提要第六点"作业检查"。
  1. 对 [Part1](./Stage1--Part1)、 [Part2](./Stage2--Part2)、 [Part3](./Stage2--Part3)  的问题和练习进行审核，给分标准请参照[GridWorld阶段1评审表](./Stage1--ReviewForm)和[GridWorld阶段2评审表](./Stage2--ReviewForm)。
  2. 检查 [Part2](./Stage2--Part2) 和 [Part3](./Stage2--Part3)  的程序是否运行正确。
  3. 查看Sonar的分析结果，不合格的扣分，具体参照[GridWorld阶段2评审表](./Stage2--ReviewForm)。
