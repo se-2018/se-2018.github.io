@@ -44,6 +44,10 @@ weight: 2
 ### 任务
 **以下给出的[vi/vim](http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=7962701)、[JAVA](http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=21299305)、[Ant](http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=6521011)、[Junit](http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=21299308)学习链接仅供参考，不可硬套。**
 
+推荐：
+ - [xwy27委员长](https://github.com/xwy27)的[**云桌面配置**](https://github.com/se-2018/se-2018.github.io/issues/5)
+ - [Huangscar菇](https://github.com/Huangscar)的[**ANT 入门教程**](https://github.com/se-2018/se-2018.github.io/issues/11)
+
  1. 学习[vi/vim编辑器的使用](http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=7962701)
  2. 熟悉JDK的环境并学习[JAVA语言](http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=21299305)，完成HelloWorld的编译运行
  3. 熟悉[Ant的环境](http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=6521011)并学习Ant，利用Ant实现HelloWorld的自动编译
