@@ -11,7 +11,9 @@ Welcome to the gridworld wiki!
 ----------
 
 ### 注意
-**本网站的实训内容随时可能变更，具体更改见[Commit 历史](https://github.com/se-2018/se-2018.github.io/commits/master)。**
+**[网站](https://se-2018.github.io)的实训内容随时可能变更，具体更改见[Commit 历史](https://github.com/se-2018/se-2018.github.io/commits/master)。**
+
+**[网站](https://se-2018.github.io)的备用：[Github Wiki](https://github.com/se-2018/se-2018.github.io/wiki)，内容完全一致**。可在排版混乱时切换。
 
 
 ----------
