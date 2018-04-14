@@ -64,3 +64,6 @@ Welcome to the gridworld wiki!
 
  8. 请假
     - 不扣考勤分，与作业补交得分无关。
+ 9. 推荐(欢迎自荐= =)
+    - [xwy27委员长](https://github.com/xwy27)的[**云桌面配置**](https://github.com/se-2018/se-2018.github.io/issues/5)
+    - [Huangscar菇](https://github.com/Huangscar)的[**ANT 入门教程**](https://github.com/se-2018/se-2018.github.io/issues/11)
