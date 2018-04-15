@@ -47,6 +47,7 @@ weight: 2
 推荐：
  - [xwy27委员长](https://github.com/xwy27)的[**云桌面配置**](https://github.com/se-2018/se-2018.github.io/issues/5)
  - [Huangscar菇](https://github.com/Huangscar)的[**ANT 入门教程**](https://github.com/se-2018/se-2018.github.io/issues/11)
+ - [不知名gyakkun](https://github.com/gyakkun)的[环境配置及Sonar错误处理](https://github.com/se-2018/se-2018.github.io/issues/13)
 
  1. 学习[vi/vim编辑器的使用](http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=7962701)
  2. 熟悉JDK的环境并学习[JAVA语言](http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=21299305)，完成HelloWorld的编译运行
