@@ -60,7 +60,7 @@ weight: 3
 
 
 ### 检查
-检查时间、地点及流程见[概述](./Home)页中提要第六点"作业检查"。
+请在**04月22日23:30之前**完成检查。检查具体时间、地点及流程见[概述](./Home)页中提要第六点"作业检查"。
  1. 对 [Part1](./Stage1--Part1)、 [Part2](./Stage2--Part2)、 [Part3](./Stage2--Part3)  的问题和练习进行审核，给分标准请参照[GridWorld阶段1评审表](./Stage1--ReviewForm)和[GridWorld阶段2评审表](./Stage2--ReviewForm)。
  2. 检查 [Part2](./Stage2--Part2) 和 [Part3](./Stage2--Part3)  的程序是否运行正确。
  3. 查看Sonar的分析结果，不合格的扣分，具体参照[GridWorld阶段2评审表](./Stage2--ReviewForm)。
