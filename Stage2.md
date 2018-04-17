@@ -30,9 +30,9 @@ weight: 3
 | 制品 | 提交命名 | 备注 | 提交时间 |
 | :----: | :----: | :----: | :----: |
 | [Part2](./Stage2--Part2),[Part3](./Stage2--Part3),[Part4](./Stage2--Part4),[Part5](./Stage2--Part5) 的问题和练习 | / | / | **04月22日23:30之前** |
-| [Part2](./Stage2--Part2) | `Part2.zip` | 代码分为4个文件夹，文件夹名字分别为`CircleBug`、`SpiralBug`、`ZBug`、`DancingBug`，每个文件夹中包含一个bug和一个runner，4个文件夹和[README](https://en.wikipedia.org/wiki/README)一起打包 | **04月22日23:30之前** |
-| [Part3](./Stage2--Part3) | `Part3.zip` | 两份文档建议用英文书写 **(可用中文)**，代码放在`Jumper`文件夹，和[README](https://en.wikipedia.org/wiki/README)打包 | **04月22日23:30之前** |
-| [Part4](./Stage2--Part4) | `Part4.zip` | 代码分为6个文件夹: `ModifiedChameleonCritter`、`ChameleonKid`、`RockHound`、`BlusterCritter`、`QuickCrab`、`KingCrab`，每个文件夹中包含一个bug和一个runner。6个文件夹和[README](https://en.wikipedia.org/wiki/README)一起打包 | **04月22日23:30之前** |
+| [Part2](./Stage2--Part2) | `Part2.zip` | 代码分为4个文件夹，文件夹名字分别为`CircleBug`、`SpiralBug`、`ZBug`、`DancingBug`，每个文件夹中包含一个bug和一个runner，4个文件夹再一起打包 | **04月22日23:30之前** |
+| [Part3](./Stage2--Part3) | `Part3.zip` | 两份文档建议用英文书写 **(可用中文)**，代码打包 | **04月22日23:30之前** |
+| [Part4](./Stage2--Part4) | `Part4.zip` | 代码分为6个文件夹: `ModifiedChameleonCritter`、`ChameleonKid`、`RockHound`、`BlusterCritter`、`QuickCrab`、`KingCrab`，每个文件夹中包含一个bug和一个runner。6个文件夹一起打包 | **04月22日23:30之前** |
 | [Part5](./Stage2--Part5) | `Part5.zip` | 代码分为3个文件夹:`1`，`2`，`3`，再和[README](https://en.wikipedia.org/wiki/README)一起打包 | **04月22日23:30之前** |
 
 
