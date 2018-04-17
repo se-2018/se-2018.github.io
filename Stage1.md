@@ -45,7 +45,7 @@ weight: 2
 推荐：
  - [xwy27委员长](https://github.com/xwy27)的[**云桌面配置**](https://github.com/se-2018/se-2018.github.io/issues/5)
  - [Huangscar菇](https://github.com/Huangscar)的[**ANT 入门教程**](https://github.com/se-2018/se-2018.github.io/issues/11)
- - [不知名gyakkun](https://github.com/gyakkun)的[环境配置及Sonar错误处理](https://github.com/se-2018/se-2018.github.io/issues/13)
+ - [不知名gyakkun](https://github.com/gyakkun)的[**环境配置及Sonar错误处理**](https://github.com/se-2018/se-2018.github.io/issues/13)
 
 **以下给出的[vi/vim](http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=7962701)、[JAVA](http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=21299305)、[Ant](http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=6521011)、[Junit](http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=21299308)学习链接仅供参考，可不看。**
 
@@ -58,7 +58,6 @@ weight: 2
 
     注意：Sonar 和 Sonar-runner 可以不下载，已放在云平台的`/opt/resources`目录
  7. 将代码打包，上传至[Matrix](https://vmatrix.org.cn)
-
  8. 完成[GridWorld](./resources/gridworld.zip)的[环境配置](./Stage1--EnvironmentalConfiguration)，学习`gridworld.jar`的引用，编译运行`BugRunner`
  9. 登录[Matrix](https://vmatrix.org.cn)完成[Part1](./Stage1--Part1)的问题和练习
  10. 完成检查，具体见下节"检查"

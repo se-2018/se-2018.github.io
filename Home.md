@@ -67,4 +67,4 @@ Welcome to the gridworld wiki!
  9. 推荐(欢迎自荐= =)
     - [xwy27委员长](https://github.com/xwy27)的[**云桌面配置**](https://github.com/se-2018/se-2018.github.io/issues/5)
     - [Huangscar菇](https://github.com/Huangscar)的[**ANT 入门教程**](https://github.com/se-2018/se-2018.github.io/issues/11)
-    - [不知名gyakkun](https://github.com/gyakkun)的[环境配置及Sonar错误处理](https://github.com/se-2018/se-2018.github.io/issues/13)
+    - [不知名gyakkun](https://github.com/gyakkun)的[**环境配置及Sonar错误处理**](https://github.com/se-2018/se-2018.github.io/issues/13)
