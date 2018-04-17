@@ -1,3 +1,9 @@
+---
+layout: page
+menu: false
+---
+
+
 # 阶段二 Part2 代码提交
 
  - 命名：`Part2.zip`

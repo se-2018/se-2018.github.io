@@ -1,3 +1,9 @@
+---
+layout: page
+menu: false
+---
+
+
 # 阶段三 MazeBug 代码提交
 
  - 命名：`Mazebug.zip`

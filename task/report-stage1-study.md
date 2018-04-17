@@ -1,3 +1,9 @@
+---
+layout: page
+menu: false
+---
+
+
 # 阶段一  Vi,Java,Ant和Junit的自学报告(studyreport.md)
 
  - 要求：

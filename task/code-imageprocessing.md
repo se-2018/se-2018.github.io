@@ -1,3 +1,9 @@
+---
+layout: page
+menu: false
+---
+
+
 # 阶段三 ImageReader 代码提交
 
  - 命名：`ImageReader.zip`
