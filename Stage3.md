@@ -33,10 +33,10 @@ weight: 4
 
 | 制品 | 提交命名 | 备注 | 提交时间 |
 | :----: | :----: | :----: | :----: |
-| [ImageProcessing代码](./task/code-imageprocessing) | `ImageReader.zip` | 必须包含**ImplementImageIO.java**, **ImplementImageProcessor.java**, **ImageProcessorTest.java**，和[README](https://en.wikipedia.org/wiki/README)一起打包 | **05月06日23:30之前** |
-| [MazeBug代码](./task/code-mazebug) | `Mazebug.zip` | 必须包含 **MazeBug.java**，和[README](https://en.wikipedia.org/wiki/README)一起打包 | **05月06日23:30之前** |
-| [N-Puzzle代码](./task/code-npuzzle) | `Jigsaw.zip` | 必须包含 **Jigsaw.java**，和[README](https://en.wikipedia.org/wiki/README)一起打包 | **05月06日23:30之前** |
-| [实训总结报告](./task/report-summary) | ~~`summaryreport.md`~~ | [Markdown](https://en.wikipedia.org/wiki/Markdown)格式，字数和内容不限，视态度打分并纳入最终总评 | **05月06日23:30之前** |
+| [ImageProcessing代码](./Task--Code-ImageProcessing) | `ImageReader.zip` | 必须包含**ImplementImageIO.java**, **ImplementImageProcessor.java**, **ImageProcessorTest.java**，和[README](https://en.wikipedia.org/wiki/README)一起打包 | **05月06日23:30之前** |
+| [MazeBug代码](./Task--Code-MazeBug) | `Mazebug.zip` | 必须包含 **MazeBug.java**，和[README](https://en.wikipedia.org/wiki/README)一起打包 | **05月06日23:30之前** |
+| [N-Puzzle代码](./Task--Code-NPuzzle) | `Jigsaw.zip` | 必须包含 **Jigsaw.java**，和[README](https://en.wikipedia.org/wiki/README)一起打包 | **05月06日23:30之前** |
+| [实训总结报告](./Task--Report-Summary) | ~~`summaryreport.md`~~ | [Markdown](https://en.wikipedia.org/wiki/Markdown)格式，字数和内容不限，视态度打分并纳入最终总评 | **05月06日23:30之前** |
 
 
 ----------

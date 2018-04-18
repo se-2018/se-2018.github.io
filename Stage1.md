@@ -33,8 +33,8 @@ weight: 2
 
 | 制品 | 提交命名 | 备注 | 提交时间 |
 | :----: | :----: | :----: | :----: |
-| [Vi,Java,Ant,Junit的自学报告](./task/report-stage1-study) | ~~`studyreport.md`~~ | [Markdown](https://en.wikipedia.org/wiki/Markdown)格式 | **04月15日23:30之前** |
-| [任务2,3,4,5,6的代码](./task/code-stage1) | `calculator.zip` | 必须包含HelloWorld代码，Junit测试代码，`build.xml`，`sonar-project.properties`，[Java小程序](./Stage1--Calculator)代码，[README](https://en.wikipedia.org/wiki/README) | **04月15日23:30之前** |
+| [Vi,Java,Ant,Junit的自学报告](./Task--Report-Study) | ~~`studyreport.md`~~ | [Markdown](https://en.wikipedia.org/wiki/Markdown)格式 | **04月15日23:30之前** |
+| [任务2,3,4,5,6的代码](./Task--Code-Study) | `calculator.zip` | 必须包含HelloWorld代码，Junit测试代码，`build.xml`，`sonar-project.properties`，[Java小程序](./Stage1--Calculator)代码，[README](https://en.wikipedia.org/wiki/README) | **04月15日23:30之前** |
 | [Part1](./Stage1--Part1)的问题和练习 | / | 建议用英文书写，**可用中文** | **04月15日23:30之前** |
 
 
