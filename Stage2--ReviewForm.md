@@ -17,13 +17,38 @@ weight: 0
 ### 标准
 此阶段占作业成绩的45%。要求：
 
- - 问答题：回答正确，简洁，全面；检查的结果按如下标准给分
+ - 问答题
+    - 正确性
+        1. 正确： 回答准备无误（不扣分）
+        2. 基本正确： 回答大体正确，有小错误（扣一半分数）
+        3. 错误： 回答有严重错误（无分）
+    - 简洁性
+    - 全面性
+        - 按比例扣分
+    - 排版
+        1. 整齐（不扣分）
+        2. 混乱（扣一半分数）
+    - **源码支撑**
+        1. 不指出源码所在位置（无分）
+        2. 无源码依据（无分）
+        3. 10行以上的多余源码（无分）
 
-    a. 正确： 回答准备无误（该题全部分数）
-
-    b. 基本正确： 回答大体正确，有小错误（该题一半分数或酌情给分）
-
-    c. 错误： 回答有严重错误（该题无分）
+        示范： 
+        - 问题：Does the bug always move to a new location? Explain.
+        - 回答：No. A bug will only move to the location in front of it if the cell exists and is empty or if there is a flower in the cell.
+            - if the cell exists：
+                ```java
+                // @file: info/gridworld/actor/Bug.java
+                // @line: 98~99
+                if (!gr.isValid(next))
+                    return false;
+                ```
+            - if is empty or if there is a flower in the cell
+                ```java
+                // @file: info/gridworld/actor/Bug.java
+                // @line: 101
+                return (neighbor == null) || (neighbor instanceof Flower);
+                ```
 
  - 代码题：运行无误；相关代码规范查看sonar的运行结果。
 
