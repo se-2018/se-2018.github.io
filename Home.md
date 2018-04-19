@@ -17,8 +17,8 @@ Welcome to the gridworld wiki!
 
 重要变更：
  - [Part2](./Stage2--Part2)、[Part3](./Stage2--Part3)、[Part4](./Stage2--Part4)、[Part5](./Stage2--Part5) 的问题和练习
-    - 问答题截止提交日期改为 **04月30日23:30之前** (Commit Date:   Wed Apr 18 17:52 2018 +0800)
-    - 答题请先查看[评分标准](./Stage2--ReviewForm) (Commit Date:   Thu, 19 Apr 2018 21:09 2018 +0800)
+    - 问答题截止提交日期改为 **04月30日23:30之前**  (Commit Date:   Thu Apr 19 21:09 2018 +0800)
+    - 答题请先查看[评分标准](./Stage2--ReviewForm) (Commit Date:   Wed Apr 18 17:52 2018 +0800)
 
 ----------
 
