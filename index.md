@@ -10,11 +10,15 @@ Welcome to the gridworld wiki!
 
 ----------
 
-### 注意
-**[网站](https://se-2018.github.io)的实训内容随时可能变更，具体更改见[Commit 历史](https://github.com/se-2018/se-2018.github.io/commits/master)。**
-
+### 关于
 **[网站](https://se-2018.github.io)的备用：[Github Wiki](https://github.com/se-2018/se-2018.github.io/wiki)，内容完全一致**。可在排版混乱时切换。
 
+**[网站](https://se-2018.github.io)的实训内容随时可能变更，具体更改见[Commit 历史](https://github.com/se-2018/se-2018.github.io/commits/master)。**
+
+重要变更：
+ - [Part2](./Stage2--Part2)、[Part3](./Stage2--Part3)、[Part4](./Stage2--Part4)、[Part5](./Stage2--Part5) 的问题和练习
+    - 问答题截止提交日期改为 **04月30日23:30之前** (Commit Date:   Wed Apr 18 17:52 2018 +0800)
+    - 答题请先查看[评分标准](./Stage2--ReviewForm) (Commit Date:   Thu, 19 Apr 2018 21:09 2018 +0800)
 
 ----------
 
