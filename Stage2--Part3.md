@@ -214,7 +214,7 @@ For unbounded grids, these methods return -1.
 
  1. How can you obtain a count of the objects in a grid? How can you obtain a count of the empty locations in a bounded grid?
  2. How can you check if location (10,10) is in a grid?
- 3. Grid contains method declarations, but no code is supplied in the methods. Why Where can you find the implementations of these methods?
+ 3. Grid contains method declarations, but no code is supplied in the methods. Why? Where can you find the implementations of these methods?
  4. All methods that return multiple objects return them in an ArrayList. Do you think it would be a better design to return the objects in an array? Explain your answer.
 
 
