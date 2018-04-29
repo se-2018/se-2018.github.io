@@ -165,12 +165,14 @@ I = 0.299 \* R + 0.587 \* G + 0.114 \*B，其中R,G,B分别为红、绿、蓝通
  1. 在上文的资料中没有提供可运行的main函数，正确的打开方式如下：
     ```java
     // ImagaReaderRunner.java
+    import imagereader.IImageIO;
+    import imagereader.IImageProcessor;
     import imagereader.Runner;
 
     public class ImageReaderRunner {
         public static void main(String[] args) {
-            ImplementImageIO imageioer = new ImplementImageIO();
-            ImplementImageProcesser processor = new ImplementImageProcessor();
+            IImageIO imageioer = new ImplementImageIO();
+            IImageProcessor processor = new ImplementImageProcessor();
             Runner.run(imageioer, processor);
         }
     }

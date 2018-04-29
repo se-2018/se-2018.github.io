@@ -35,7 +35,7 @@ weight: 4
 | :----: | :----: | :----: | :----: |
 | [ImageProcessing代码](./Task--Code-ImageProcessing) | `ImageReader.zip` | 必须包含**ImplementImageIO.java**, **ImplementImageProcessor.java**, **ImageProcessorTest.java**，和[README](https://en.wikipedia.org/wiki/README)一起打包 | **05月06日23:30之前** |
 | [MazeBug代码](./Task--Code-MazeBug) | `Mazebug.zip` | 必须包含 **MazeBug.java**，和[README](https://en.wikipedia.org/wiki/README)一起打包 | **05月06日23:30之前** |
-| [N-Puzzle代码](./Task--Code-NPuzzle) | `Jigsaw.zip` | 必须包含 **Jigsaw.java**，和[README](https://en.wikipedia.org/wiki/README)一起打包 | **05月06日23:30之前** |
+| [N-Puzzle代码](./Task--Code-NPuzzle) | `Jigsaw.zip` | 只包含 **Solution.java** | **05月06日23:30之前** |
 | [实训总结报告](./Task--Report-Summary) | ~~`summaryreport.md`~~ | [Markdown](https://en.wikipedia.org/wiki/Markdown)格式，字数和内容不限，视态度打分并纳入最终总评 | **05月06日23:30之前** |
 
 
@@ -52,7 +52,6 @@ weight: 4
 请在**05月06日23:30之前**完成检查。检查具体时间、地点及流程见[概述](./Home)页中提要第六点"作业检查"。
  1. TA对[图像处理](./Stage3--ImageProcessing)部分的内容进行审核。(需现场检查程序运行)
  2. TA对[迷宫](./Stage3--MazeBug)部分的内容进行审核。(需现场检查程序运行)
- 3. TA对[拼图](./Stage3--NPuzzle)部分的内容进行审核。(需现场检查程序运行)
 
 
 ----------
