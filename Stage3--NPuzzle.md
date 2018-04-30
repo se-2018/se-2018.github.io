@@ -141,7 +141,7 @@ JigsawNode类描述了拼图的数据结构，包括两个重要元素："节点
 
 `JigsawNode`类是拼图的数据结构，包含节点状态和节点操作这两个重要的元素，在3.1节已作介绍，5.1节有详细说明。
 
-`Jigsaw`类则是完成搜索的地方，其中存储了拼图的初始状态、目标状态以及当前状态，以及与拼图游戏相关的其他数据和方法。演示脚本RunnerDemo.java使用了`ASearch()`求解随机8-数码问题（3\*3拼图）；实验任务一要求在`Solution`类的`BFSearch()`中填充广度优先搜索算法；实验任务二要求修改`estimateValue()`方法，完成用启发式搜索求解24-数码问题（5\*5拼图）。
+`Jigsaw`类则是完成搜索的地方，其中存储了拼图的初始状态、目标状态以及当前状态，以及与拼图游戏相关的其他数据和方法。演示脚本RunnerDemo.java使用了`ASearch(JigsawNode bNode, JigsawNode eNode)`求解随机8-数码问题（3\*3拼图）；实验任务一要求在`Solution`类的`BFSearch(JigsawNode bNode, JigsawNode eNode)`中修改广度优先搜索算法；实验任务二要求修改`estimateValue(JigsawNode jNode)`方法，完成用启发式搜索求解24-数码问题（5\*5拼图）。
 
 Runners目录中包含了1个基本的演示脚本和2个实验任务演示脚本。
 
@@ -153,7 +153,7 @@ Runners目录中包含了1个基本的演示脚本和2个实验任务演示脚�
 ## 四、实验任务
 
 ### 4.1 演示程序
-（Demo）运行演示脚本`RunnerDemo.java`，求解随机8数码问题（3\*3拼图）。参照2.2节，阅读Jigsaw类中的`ASearch()`和`estimateValue()`方法。熟悉`JigsawNode`类和`Jigsaw`类。
+（Demo）运行演示脚本`RunnerDemo.java`，求解随机8数码问题（3\*3拼图）。参照2.2节，阅读Jigsaw类中的`ASearch(JigsawNode bNode, JigsawNode eNode)`和`estimateValue(JigsawNode jNode)`方法。熟悉`JigsawNode`类和`Jigsaw`类。
 
 ### 4.2 实验任务一
 利用广度优先搜索求出指定N-数码问题的最优解。
@@ -169,28 +169,26 @@ Runners目录中包含了1个基本的演示脚本和2个实验任务演示脚�
 
 图4 指定的8-数码问题
 
-`RunnerPart1.java`演示脚本对应以上8-数码例子。但在最终评判脚本`main.java`中测试的是24-数码。
+`RunnerPart1.java`演示脚本对应以上8-数码例子。但在评判脚本`main.java`中测试的是24-数码。
 
-要求参照2.1节，在`Solution`类中填充广度优先搜索算法`BFSearch()`求得最优解，即是从初始状态到达目标状态的步数最少的移动路径。
+要求参照2.1节，在`Solution`类中修改广度优先搜索算法`BFSearch(JigsawNode bNode, JigsawNode eNode)`求得最优解，即是从初始状态到达目标状态的步数最少的移动路径。
 
 具体要求：
- 1. 填充`Solution`类中的`BFSearch()`函数，可在`Solution`类添加其他函数，属性
+ 1. 只能修改`Solution`类中的`BFSearch(JigsawNode bNode, JigsawNode eNode)`函数，可在`Solution`类添加其他函数，属性。**其余代码不能更改，否则可能导致评测时编译或运行失败**
  2. 要求求解成功后：
-    - `currentJNode`是目标状态
- 3. 评判脚本`main.java`给出最终得分
+    - 能通过`getPath()`方法得到解路径
 
-注意：所有可能的节点状态为25!/2种，因而采用广度优先搜索求解随机初始状态的5\*5拼图可能需要花费较长时间，所以保证在评判脚本`main.java`中测试例子的最短路径长度不超过11。
+注意：所有可能的节点状态为25!/2种，因而采用广度优先搜索求解随机初始状态的5\*5拼图可能需要花费较长时间，所以保证在最终测例的最短路径长度不超过11。
 
 
 ### 4.3 实验任务二
 （5分）利用启发式搜索求解随机生成的24-数码问题（5\*5拼图）
 
-参照2.3节，修改`Solution`类中的代价估计函数`estimateValue()`，对随机生成的5\*5拼图初始状态进行求解。
+参照2.3节，修改`Solution`类中的代价估计函数`estimateValue(JigsawNode jNode)`，对随机生成的5\*5拼图初始状态进行求解。
 
 具体要求：
- 1. 修改`Solution`类中的`estimateValue()`函数，可在`Solution`类添加其他函数，属性
+ 1. 只能修改`Solution`类中的`estimateValue(JigsawNode jNode)`函数，可在`Solution`类中添加其他函数，属性。**其余代码不能更改，否则可能导致评测时编译或运行失败**
  2. 要求访问节点总数不超过**29000**个
- 3. 评判脚本`main.java`给出最终得分
 
 ----------
 
@@ -263,8 +261,8 @@ Runners目录中包含了1个基本的演示脚本和2个实验任务演示脚�
 | `public void printResult(PrintWriter pw)` | 将搜索结果写入文件中，同时显示在控制台 |
 | `public void prune()` | 清空已发现但未访问的节点 |
 | `public boolean prune(Predicate<JigsawNode> filter)` | 有选择地删除某些已发现但未访问的节点 |
-| `public boolean ASearch()` | 启发式搜索 |
-| `public abstract boolean BFSearch()` | 抽象函数，广度优先搜索算法 |
+| `public boolean ASearch(JigsawNode bNode, JigsawNode eNode)` | 启发式搜索 |
+| `public abstract BFSearch(JigsawNode bNode, JigsawNode eNode)` | 抽象函数，广度优先搜索算法 |
 | `private abstract void estimateValue(JigsawNode jNode)` | 抽象函数，计算并修改节点的代价估值estimatedValue |
 
 ### 5.3 Solution类
@@ -273,7 +271,7 @@ Runners目录中包含了1个基本的演示脚本和2个实验任务演示脚�
 | :----: | :----: |
 | `public Solution(JigsawNode bNode, JigsawNode eNode)` | 拼图构造函数，bNode-初始状态节点，eNode-目标状态节点 |
 | *演示及实验任务函数* | *演示及实验任务函数* |
-| `public boolean BFSearch()` | 广度优先搜索算法，求解指定N-数码问题的最优解 |
+| `public BFSearch(JigsawNode bNode, JigsawNode eNode)` | 广度优先搜索算法，求解指定N-数码问题的最优解 |
 | `public void estimateValue(JigsawNode jNode)` | 计算并修改节点的代价估值 |
 
 
@@ -282,7 +280,7 @@ Runners目录中包含了1个基本的演示脚本和2个实验任务演示脚�
 
 | 脚本名 | 介绍 |
 | :----: | :----: |
-| RunnerDemo.java | **演示脚本**，使用启发式搜索求解随机8-数码问题（3\*3拼图）。参考Jigsaw类中的`ASearch()`和`estimageValue()`函数 |
+| RunnerDemo.java | **演示脚本**，使用启发式搜索求解随机8-数码问题（3\*3拼图）。参考Jigsaw类中的`ASearch(JigsawNode bNode, JigsawNode eNode)`和`estimageValue()`函数 |
 | RunnerPart1.java | **实验一测试脚本**，使用广度优先算法求解指定8-数码问题（3\*3拼图）的最优解 |
 | RunnerPart2.java | **实验二测试脚本**，使用启发式搜索算法求解随机24-数码问题（5\*5拼图） |
 
