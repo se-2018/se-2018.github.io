@@ -8,7 +8,10 @@ menu: false
 
  - 命名：`Jigsaw.zip`
  - 要求：打包**Solution.java**
- - 提示：提交前请确保能正常运行`test.sh`，否则评测会是0分。
+ - 提示
+    - 提交前请确保能正常运行`test.sh`，否则评测会是0分
+    - 只打包Solution.java文件，否则评测时找不到文件，结果是0分
+    - 确保使用`unzip`(Version:6.00)能解压成功
  - 文件结构
     ```shell
     .

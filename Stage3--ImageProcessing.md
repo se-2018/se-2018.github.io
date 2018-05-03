@@ -190,7 +190,7 @@ I = 0.299 \* R + 0.587 \* G + 0.114 \*B，其中R,G,B分别为红、绿、蓝通
         | 类或方法 | 备注 |
         | :----: | :----: |
         | Toolkit.getDefaultToolkit().createImage([ImageProducer](https://docs.oracle.com/javase/7/docs/api/java/awt/image/ImageProducer.html) producer) | 从像素数组转换成java.awt.Image |
-        | [MemoryImageSource](https://docs.oracle.com/javase/7/docs/api/java/awt/image/MemoryImageSource.html))(int w, int h, int[] pix, int off, int scan) | MemoryImageSorce实现了ImageProducer接口 |
+        | [MemoryImageSource](https://docs.oracle.com/javase/7/docs/api/java/awt/image/MemoryImageSource.html)(int w, int h, int[] pix, int off, int scan) | MemoryImageSorce实现了ImageProducer接口 |
         | ImageIO.write([RenderedImage](https://docs.oracle.com/javase/7/docs/api/java/awt/image/RenderedImage.html) im,String formatName,File output) | 把图片写出到文件 |
-        | [BufferedImage](https://docs.oracle.com/javase/7/docs/api/java/awt/image/BufferedImage.html)(int width, int height, int imageType) | 实现了RenderedImage接口，Image转换BufferedImage的方法参考[这里](http://stackoverflow.com/questions/13605248/java-converting-image-to-bufferedimage) |
+        | [BufferedImage](https://docs.oracle.com/javase/7/docs/api/java/awt/image/BufferedImage.html)(int width, int height, int imageType) | 实现了RenderedImage接口，Image转换BufferedImage的方法参考[这里](http://stackoverflow.com/questions/13605248/java-converting-image-to-bufferedimage)(遇坑可见热心群众[owtotwo](https://github.com/owtotwo)解决的[Issue 24](https://github.com/se-2018/se-2018.github.io/issues/24)) |
 

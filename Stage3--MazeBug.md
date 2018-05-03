@@ -99,9 +99,14 @@ weight: 2
 ## 四、 实验软件装置介绍
 本实验使用的是修改的Grid World，如果已经完成实训的基础部分，则不需要重新配置环境。
 
-**首先用"WorldFrame.java"和"WorldFrameResources.properties"替换"GridWorldCode\\GridWorldCode\\framework\\info\\gridworld\\gui"下面的文件，然后将MazeBug文件夹放到GridWorldCode\\GridWorldCode\\projects下，并在工程里添加MazeBug的folder。**
-
-**如果需要使用gridworld.jar请先使用ant将framework文件夹内的代码重新打包生成新的jar包。**
+ - 不使用gridworld.jar
+    1. 用"WorldFrame.java"和"WorldFrameResources.properties"替换"GridWorldCode/GridWorldCode/framework/info/gridworld/gui"下面的对应的文件
+    2. 将MazeBug文件夹放到GridWorldCode/GridWorldCode/projects下
+    3. 在工程里添加MazeBug的folder。
+ - 使用gridworld.jar
+    1. 使用ant将framework文件夹内的代码重新打包生成新的jar包
+    2. 在工程引用新的jar包
+    3. 删除旧jar包或确保类加载时新jar包优先于旧jar包
 
 
 ### **4.1 MazeBug类介绍**

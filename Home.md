@@ -16,12 +16,6 @@ Welcome to the gridworld wiki!
 **[网站](https://se-2018.github.io)的实训内容随时可能变更，具体更改见[Commit 历史](https://github.com/se-2018/se-2018.github.io/commits/master)。**
 
 重要变更：
- - [Part2](./Stage2--Part2)、[Part3](./Stage2--Part3)、[Part4](./Stage2--Part4)、[Part5](./Stage2--Part5) 的问题和练习
-    - 问答题截止提交日期改为 **04月30日23:30之前**  (Commit Date:   Thu Apr 19 21:09 2018 +0800)
-    - 答题请先查看[评分标准](./Stage2--ReviewForm) (Commit Date:   Wed Apr 18 17:52 2018 +0800)
- - 五一放假调整
-    - **04.28 00:00 ~ 04.29 23:29** 时间段 实验楼无人值班 (Commit Date:   Fri Apr 20 20:08 2018 +0800)
-    - **04.28 00:00 ~ 04.29 00:15** 时间段 云桌面不开放 (Commit Date:   Fri Apr 20 20:08 2018 +0800)
  - 在至实训结束前，请对[Matrix](https://vmatrix.org.cn)的所有提交做好**本地备份**，以防数据丢失。
  - [阶段2：基本任务](./Stage2)的所有检查延长至2018.05.05和2018.05.06两日。但必须在**04月22日23:30之前**在[Matrix](https://vmatrix.org.cn)上提交代码。
     - 检查时代码只能来自matrix上的文件上传题的下载，不允许从其他地方导入代码。
@@ -37,9 +31,10 @@ Welcome to the gridworld wiki!
     - 人数：1人（每人独自行动）
     - 时间：4周（2018.04.08~2018.05.06），分为3个阶段。
         1. [阶段1：项目启动](./Stage1)（2018.04.08~2018.04.15）
-        2. [阶段2：基本任务](./Stage2)（2018.04.15~2018.04.22）
+        2. [阶段2：基本任务](./Stage2)（2018.04.15~2018.04.30）
         3. [阶段3：扩展任务](./Stage3)（2018.04.22~2018.05.06）
     - 地点：宿舍、文化室等
+    - 内容：[GridWorld 简介](./GridWorld)
  2. 答疑地点
     1. [Github Issues](https://github.com/se-2018/se-2018.github.io/issues)
     2. 实训群
