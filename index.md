@@ -63,6 +63,7 @@ Welcome to the gridworld wiki!
         - 从[Matrix](https://vmatrix.org.cn)上下载代码到**新建的空白文件夹**。
         - 让程序运行起来，随后应对TA检查，提问。
         - 从下载代码到程序运行起来，**耗时不能超过一分钟**。
+        - 请找本班助教检查，否则无法录入分数。(曾老师班助教在靠近讲台侧，吴老师班助教在靠近门侧)
 
  7. 补作业
     - 补交：留意[Matrix](https://vmatrix.org.cn)上作业发布。
